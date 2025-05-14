@@ -22,14 +22,12 @@ To understand how customers feel about Pakistani clothing brands and what drives
 
 ---
 
-## 📂 Project Structure
-│
-├── brand_reviews.csv # Raw dataset with comments and brand names
-├── cleaned_brand_reviews.csv # Cleaned and preprocessed version
-├── brand_reviews_with_sentiment.csv # Final dataset with sentiment and date
-├── sentiment_analysis.ipynb # Main Jupyter notebook
-└── README.md # Project documentation
-
+project-root/
+├── brand_reviews.csv # Raw dataset containing user comments and brand names
+├── cleaned_brand_reviews.csv # Dataset after text preprocessing and cleaning
+├── brand_reviews_with_sentiment.csv # Final dataset with sentiment labels and synthetic date column
+├── sentiment_analysis.ipynb # Jupyter Notebook containing all analysis and visualizations
+└── README.md # Project documentation (this file)
 
 ---
 
